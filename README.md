@@ -6,10 +6,6 @@ Run container with high priviliges to get hardware access.
 Bash:
 docker run --privileged --entrypoint /bin/bash -it xeroxxx/mlxcontainer
 
-Persistent container:
-docker run -d --privileged xeroxxx/mlxcontainer
-docker exec -it <containername> /bin/bash
-
 Set MLX Card to Ethernet:
 
 lspci
