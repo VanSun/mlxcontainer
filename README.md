@@ -4,7 +4,7 @@ Mellanox Config Tools Container
 Run container with high priviliges to get hardware access.
 
 Bash:
-docker run --entrypoint --privileged  /bin/bash -it xeroxxx/mlxcontainer
+docker run --privileged --entrypoint /bin/bash -it xeroxxx/mlxcontainer
 
 Persistent container:
 docker run -d --privileged xeroxxx/mlxcontainer
